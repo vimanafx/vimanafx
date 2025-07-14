@@ -1,0 +1,13 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+  background: #4B3F72;
+  min-height: calc(100vh - 70px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
