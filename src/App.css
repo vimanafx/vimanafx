@@ -1,3 +1,47 @@
+@media (max-width: 768px) {
+  .logo-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .center-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .navbar {
+    margin-top: 0;
+    width: 100%;
+    position: static;
+  }
+}
+#root {
+  width: 100%;
+  text-align: center;
+  text-align: center;
+}
+
+/* Add responsive container styles */
+.app-responsive-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .app-responsive-container {
+    padding: 0.5rem;
+    max-width: 100%;
+  }
+}
 #root {
   width: 100%;
   text-align: center;

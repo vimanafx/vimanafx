@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
+import mainLogo from './assets/logo.png';
 import './App.css';
 
 const App = () => {
@@ -17,15 +18,7 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={
-            <>
-              <div>
-    
-              </div>
-              
-              <Home />
-            </>
-          }
+          element={<Home />}
         />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
