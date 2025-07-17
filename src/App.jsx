@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './pages/home';
+import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import reactLogo from './assets/react.svg';
